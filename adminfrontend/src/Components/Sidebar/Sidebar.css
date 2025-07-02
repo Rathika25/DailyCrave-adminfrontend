@@ -1,0 +1,29 @@
+.sidebar {
+  min-width: 250px;
+  background-color: #fff8dc;
+  padding: 2rem 1rem;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  color: #333;
+  transition: 0.2s ease;
+}
+
+.sidebar-option:hover,
+.sidebar-option.active {
+  background-color: #fff2b2;
+  font-weight: bold;
+}

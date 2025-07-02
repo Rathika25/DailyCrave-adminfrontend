@@ -1,0 +1,77 @@
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff9db, #fff3c1);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.4s ease;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.add-img-upload img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px dashed #ffcc00;
+  border-radius: 10px;
+  background-color: #fffaf1;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  font-size: 1.5rem;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fffef3;
+  outline: none;
+  margin-top: 6px;
+}
+
+.add-category-price {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.add-btn {
+  background-color: #ffbf00;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #e6aa00;
+  transform: scale(1.02);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
