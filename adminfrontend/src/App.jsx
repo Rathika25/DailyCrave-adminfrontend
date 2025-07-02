@@ -9,7 +9,7 @@ import { ToastContainer} from 'react-toastify';
 import AddSpecial from './screens/AddSpecial/AddSpecial';
 import './App.css'
 
-const url = 'http://localhost:4000'
+const url = 'https://dailycrave-backend1.onrender.com'
 
 const App = () => {
 
